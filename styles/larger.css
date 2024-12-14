@@ -38,11 +38,10 @@
 
   .cards{
    display: grid;
-    grid-template-columns: 60% 10% auto;
-    grid-template-areas: 
-    "card1 . card2";
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:5px;
+    align-items:center;
     
-
   }
 
   .cards {
