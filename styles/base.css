@@ -238,16 +238,39 @@ ul li h3 a{
        
 }
 
-.card1 {
-  padding: 10px;
+#section{
+	border:1 px solid rgba(0,0,0,0.1);
+	padding:0.5rem;
+	background-color:#eee;
+	
 }
-.card1 ul{
-  text-align: left;
-}
-.card1, .card2{
-  box-sizing: border-box;
 
+.grid {
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap:5px;
+	align-items:center;
 }
+
+.grid section{
+	text-align:center;
+}
+.grid img{
+	border:1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+.grid section > * {
+	margin:0.1rem;
+}
+.grid h3{
+	font-family:"Caveat", cursive;
+}
+
+img{
+	heifht:75px;
+	max-width:100%;
+}
+
 
   .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
