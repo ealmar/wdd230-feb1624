@@ -238,35 +238,33 @@ ul li h3 a{
        
 }
 
-#section{
+section{
 	border:1 px solid rgba(0,0,0,0.1);
 	padding:0.5rem;
 	background-color:#eee;
 	
 }
 
-.grid {
+.cards {
 	display:grid;
 	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap:5px;
 	align-items:center;
 }
 
-.grid section{
+.cards section{
 	text-align:center;
 }
-.grid img{
+.cards img{
 	border:1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
-.grid section > * {
+.cards section > * {
 	margin:0.1rem;
 }
-.grid h3{
-	font-family:"Caveat", cursive;
-}
 
-img{
+
+.card img{
 	heifht:75px;
 	max-width:100%;
 }
